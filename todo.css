@@ -1,0 +1,265 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+header{
+    height: 48px;
+    width:100%;
+    background-color: #2878D7;
+    display: flex;
+}
+.allAppsIcon{
+    width: 48px;
+    height: 48px;
+    background-color: #2878D7;
+    border: 0px;
+    outline: none;
+}
+.todo-link{
+    padding-top: 12px;
+    padding-left: 8px;
+    color: white;
+    height: 38px;
+    vertical-align: middle;
+}
+.todo-main{
+    display: flex; 
+    height:100%;
+}
+.to-do{
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search{
+    padding-top: 14px;
+    align-content: center;
+    padding-bottom: 1px;
+    padding-left: 330px;
+}
+img{
+    height: 20px;
+    width: 20px;;
+}
+.nav{
+    overflow-x: hidden;
+    height:100%;
+    background-color: #F4F4F4;
+    transition: 0.2s;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+.nav-open{
+    width: 290px;
+}
+.nav-close{
+    width: 48px;
+}
+.allAppsIcon:hover{
+    background-color:#1B5D9A;
+    opacity:0.8;
+    border: 0px;
+    outline: none;
+}
+.icon-color{
+    color:#2878D7; 
+}
+.ham{
+    width:40px;
+    height:40px;
+}
+.ham:hover{
+    background-color: white;
+}
+.sunny{
+    display: flex;
+    height: 35px;
+    padding-left: 12px;
+}
+.toggle-bar{
+    height: 35px;
+    padding-left: 20px;
+}
+.plus{
+    padding-top: 20px;
+}
+.sunny:hover{
+    background-color: white;
+}
+.GlobalNavButton{
+    margin-bottom: 21px;
+}
+.GlobalNavButton1{
+    margin-bottom: 78px;
+}
+.contact-color{
+    color:#6CA62E;
+}
+input[type="text"]{
+    width:200px;
+    height:30px; 
+    border: none;
+}
+input[type="text"]::placeholder { 
+    padding-left: 2px;
+}
+.textfield{
+    padding-top:0px;
+}
+h1{
+    height:40px;
+    width:auto;
+    color:#2878D7;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+.rightside-icons{
+    right:0;
+    display: flex;
+    height:100%;
+    padding-top: 1px;
+    margin-left: auto;
+}
+.setting-icon{ 
+    color: white;
+}
+.settings{
+    margin-right: 2px;
+}
+.mega-phone{
+    color:white;
+}
+.tasks p {
+    margin: 4px 0px 0px 20px;
+}
+.header-search{
+    width:50%;
+    margin-left: 181px;
+}
+.search-color{
+    color:#346fef;
+}
+
+.header-search-box{
+     margin: 8px;
+     width:62%;
+     height:66%;
+     border-radius:2px;
+     margin-left:19.9%;
+     transition: background-color(0.1s);
+     background-color: #c3ddf8;
+     display: flex;   
+}
+.header-search-box:hover {
+    background-color: #ffffff;
+}
+.search-btn {
+    width: 45px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    align-items: stretch;   
+}
+.search-icon-img {
+    align-items: stretch;
+    color: #346fef;
+    vertical-align: middle;
+    line-height: inherit;
+    max-width: 90%;
+    max-height: 90%;
+}
+.header-search-input-box {
+    background-color: #c3ddf8;
+    font-family:inherit;
+    border-radius: 0px 2px 2px 0px;
+    width: 100%;
+    border: none;
+}
+.header-search-input-box:hover {
+    background-color: #ffffff;
+}
+.header-search-input-box::placeholder {
+    color: #346fef;  
+}
+.header-search-input-box:focus::placeholder {
+    color: gray;
+}
+.header-right-side{
+    float: right;
+    display: flex;
+    margin-left: auto;
+    flex-direction: row-reverse;
+    width:25%;
+    height:100%;
+}
+
+.header-right-side-options{
+    padding-top: 0px;
+    width: 48px;
+    cursor: pointer;
+    text-align:center;
+    height: inherit;
+}
+
+.option-icon {
+    height:inherit;
+    width:20px;
+    color:#ffffff;
+}
+
+.name-icon{
+    width:30px;
+    height:30px;
+    margin:10px 10px 10px 8px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #1EA301;
+    color:#ffffff;
+    border-radius: 50%;
+    font-size:16px;
+}
+#name-icon{
+    padding-top: 12px ;
+}
+.BulletedList-color{
+    color: #2878D7;
+}
+.tasks li{
+    padding-left: 5px;
+}
+.task-list-align{
+    display:flex; 
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.id-visible{
+    visibility: hidden;
+}
+.step-div{
+    margin-left: auto;
+    float: right;
+    width: 0;
+    height:100%;
+    background-color:rgb(195, 199, 194); 
+    overflow-x: hidden;
+    transition: 0.2s;
+}
+.main-aside{
+    width:100%;
+}
+.backgroundLines {
+    margin: 0 24px;
+    flex: 1;
+    height: 100%;
+    background: linear-gradient(180deg, white, white 52px, #e5e5e5 52px, #e5e5e5 52px);
+    background-size: 100% 53px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.disp-inline{
+    display: flex;
+}
+.linethrough{
+    text-decoration: line-through;
+}

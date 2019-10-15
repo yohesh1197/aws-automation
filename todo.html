@@ -1,0 +1,77 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="external.css"> 
+        <link rel="stylesheet" type="text/css" href="todo.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="menu-icon" >
+            <button class ="allAppsIcon"><img src="icon1.png"></button>
+            </div>
+            <a class="todo-link">
+                    <span class="to-do">
+                     To Do
+                    </span>
+                </a>
+            <div class="header-search">
+                    <div class="header-search-box" id="header-search-box" onclick="activateSearchBox()">
+                        <button class="search-btn" id="search-btn">
+                            <i class="ms-Icon ms-Icon--Search iconSize-24 search-color"></i>
+                        </button>
+                        <input type="search" id="search-input-box" class="header-search-input-box" placeholder="Search" />
+                    </div>
+                </div>
+                <div class="header-right-side">
+                    <div class="header-right-side-options" >
+                        <div class="name-icon" >YQ</div>
+                    </div>
+                    <div class="header-right-side-options" id="name-icon">
+                        <i class="icon fontIcon ms-Icon ms-Icon--Megaphone iconSize-24 option-icon"></i>
+                    </div>
+                    <div class="header-right-side-options">
+                        <img class="option-icon" src="Help.svg" />
+                    </div>
+                    <div class="header-right-side-options" id="name-icon">
+                        <i class="ms-Icon ms-Icon--Settings iconSize-24 option-icon"></i>
+                    </div>
+            </div>
+        </header>
+        <div class="todo-main">
+        <nav id="toogle" class="nav nav-close">
+            <div class="GlobalNavButton" onclick="toggleSidebar('toogle');">
+                <button class ="ham"><i class="ms-Icon ms-Icon--GlobalNavButton iconSize-24 icon-color"></i></button>
+            </div>
+            <div class="sunny" ><i class=" ms-Icon ms-Icon--Sunny iconSize-24"></i><span class="toggle-bar" >My Day</span></div>
+            <div class="sunny" ><i class=" ms-Icon ms-Icon--FavoriteStar iconSize-24"></i><span class="toggle-bar" >Important</span></div>
+            <div class="sunny" ><i class=" ms-Icon ms-Icon--Calendar iconSize-24"></i><span class="toggle-bar" >Planned</span></div>
+            <div class="sunny" ><i class=" ms-Icon ms-Icon--Contact iconSize-24 contact-color"></i><span class="toggle-bar" >Assigned to Me</span></div>
+            <div class="sunny" ><i class=" ms-Icon ms-Icon--Home iconSize-24 icon-color"></i><span class="toggle-bar" >Tasks</span></div>
+            <ul class="tasks" id="list">
+            </ul>
+            <div class="sunny plus" onclick="taskMenu('toogle');" ><i class=" ms-Icon ms-Icon--Add iconSize-18 "></i><span class="toggle-bar textfield" ><input id ="input" type="text" placeholder="New List"/></span></div>
+        </nav>
+        <aside class="main-aside backgroundLines">
+            <div >
+                <span><h1 id="task-title">Tasks</h1><span class="id-visible" id="task-title-id"></span></span>
+            </div>
+            <div> 
+                <ul id="sub-task">
+                </ul>
+                <input id ="subinput" type="text" placeholder="Add task"/>
+            </div>
+        </aside>
+        <aside class="step-div" id="step-aside">
+                
+        <div>
+            <input id="stepAside" type="text"/>
+            <span class="id-visible" id="subtask-title-id"></span>
+            <ul id="stepsList">
+            </ul>
+            <input id ="stepAdd" type="text" placeholder="Add step"/>
+        </div>
+        </aside>
+        </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
